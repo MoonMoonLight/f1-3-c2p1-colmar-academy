@@ -1,0 +1,184 @@
+  /* --------------------- */
+
+  /* -------Tablets------- */
+
+  /* --------------------- */
+
+  @media only screen and (max-width: 1023px) {
+      body {
+          font-size: 0.9rem;
+      }
+      nav a {
+          font-size: 1.2rem;
+      }
+
+
+
+      @media only screen and (max-width:767px) {
+
+          .banner-main img,
+          .figure {
+              width: 40%;
+          }
+
+          .banner-main .text-content,
+          .outer-container {
+              width: 45%;
+          }
+
+          .course-inner {
+              width: 45%;
+          }
+
+          nav a {
+              font-size: 0.5rem;
+          }
+
+          .button {
+              width: 100%;
+              align-self: center;
+              margin-bottom: 1.6rem;
+          }
+
+          h3 {
+              font-size: 0.5rem;
+          }
+
+      }
+
+      /* --------------------- */
+      /* ---Smaller Screens--- */
+      /* --------------------- */
+      @media only screen and (max-width:480px) {
+
+          footer nav,
+          .desktop,
+          .logo,
+          .practice .figure,
+          .exhibit .outer-container,
+          .exhibit p,
+          .exhibit h3,
+          .course-inner img,
+          .course-inner p,
+          #desktop-img {
+              display: none;
+          }
+
+          /* --------------------- */
+          /* -------Header-------- */
+          /* --------------------- */
+          .mobile {
+              display: flex;
+              justify-content: space-around;
+              width: 100%;
+          }
+
+          .mobile img {
+              width: auto;
+              height: 90%;
+          }
+
+          /* --------------------- */
+          /* --------Banner------- */
+          /* --------------------- */
+          .banner-main .text-content {
+              width: 100%;
+              padding: 0 1rem;
+              margin: auto;
+          }
+
+          .banner-main img {
+              width: 90%;
+              padding: 2rem 1rem;
+              margin: auto;
+          }
+
+          .button {
+              width: 100%;
+              align-self: center;
+              margin-bottom: 1.6rem;
+          }
+
+
+
+          /* --------------------- */
+          /* --------Info--------- */
+          /* --------------------- */
+          .outer-container,
+          .inner-container .text-content {
+              width: 100%;
+              background-color: white;
+          }
+
+          .inner-container {
+              display: flex;
+              flex-flow: column;
+          }
+
+          #mobile-img {
+              display: block;
+              box-sizing: border-box;
+              padding: 1rem 1rem 1.5rem 1rem;
+          }
+
+          .inner-container img {
+              width: 100%;
+              margin: auto;
+              background-color: white;
+          }
+
+          .inner-container .text-content {
+              box-sizing: border-box;
+              padding: 1rem;
+          }
+
+          .inner-container a {
+              font-size: 1rem;
+          }
+
+          /* --------------------- */
+          /* -------Courses------- */
+          /* --------------------- */
+          .courses {
+              border-top: 1px solid #8A97A8;
+              border-bottom: 1px solid #8A97A8;
+          }
+
+          .courses-container {
+              flex-flow: column;
+          }
+
+          .course-inner {
+              width: 100%;
+              height: auto;
+              padding: 0;
+              margin: 0 0 0.5rem 0;
+          }
+
+          .course-content {
+              padding: 1rem;
+          }
+
+          /*.course-content p{
+  text-transform: uppercase;
+}*/
+          /* --------------------- */
+          /* ------Exhibit-------- */
+          /* --------------------- */
+          .exhibit .figure {
+              width: 100%;
+              padding: 0 0 1.6rem 0;
+          }
+
+          video {
+              margin: auto;
+          }
+
+          /* --------------------- */
+          /* --------Footer------- */
+          /* --------------------- */
+          h5 {
+              margin: 1.5rem 0 0 0;
+          }
+
+      }
